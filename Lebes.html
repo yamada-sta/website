@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+
+<title>ルベーグ積分入門</title>
+
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$']],
+    displayMath: [['\\[', '\\]']]
+  }
+};
+</script>
+
+<style>
+.theorem{
+    border:2px solid black;
+    padding:15px;
+    margin:15px 0;
+    background:#f8f8f8;
+}
+</style>
+
+<script async
+src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+</head>
+
+<body>
+
+<h1 align="center">ルベーグ積分入門</h1>
+
+<p>
+このサイトではルベーグ積分の基礎について解説します。
+</p>
+
+<h2>ルベーグ積分とは</h2>
+
+<p>
+リーマン積分では扱いにくい関数を積分するために
+ルベーグ積分が導入されます。
+</p>
+
+<div class="theorem">
+<b>定理（単調収束定理）</b>
+
+<p>
+$f_n \uparrow f$ のとき
+</p>
+
+\[
+\lim_{n\to\infty}
+\int f_n\,d\mu
+=
+\int f\,d\mu
+\]
+
+<p>
+が成り立ちます。
+</p>
+
+</div>
+
+</body>
+</html>
